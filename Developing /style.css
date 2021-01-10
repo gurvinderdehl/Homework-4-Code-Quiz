@@ -208,3 +208,105 @@ section .option_list .option{
     align-items: center;
     justify-content: space-between;
 }
+
+
+section .option_list .option:last-child{
+    margin-bottom: 0px;
+}
+
+section .option_list .option:hover{
+    color: purple;
+    background: #cce5ff;
+    border: 1px solid #b8daff;
+}
+
+section .option_list .option.correct{
+    color: #155724;
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+
+section .option_list .option.incorrect{
+    color: #721c24;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
+
+section .option_list .option.disabled{
+    pointer-events: none;
+}
+
+section .option_list .option .icon{
+    height: 26px;
+    width: 26px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    line-height: 24px;
+}
+.option_list .option .icon.tick{
+    color: #23903c;
+    border-color: #23903c;
+    background: #d4edda;
+}
+
+.option_list .option .icon.cross{
+    color: #a42834;
+    background: #f8d7da;
+    border-color: #a42834;
+}
+
+footer{
+    height: 60px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid lightgrey;
+}
+
+footer .total_que span{
+    display: flex;
+    user-select: none;
+}
+
+footer .total_que span p{
+    font-weight: 500;
+    padding: 0 5px;
+}
+
+footer .total_que span p:first-child{
+    padding-left: 0px;
+}
+
+footer button{
+    height: 40px;
+    padding: 0 13px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color:purple;
+    border-radius: 5px;
+    background: white;
+    border: 1px solid purple;
+    line-height: 10px;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+}
+
+footer button:hover{
+    background: white;
+}
+
+footer button.show{
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+}
