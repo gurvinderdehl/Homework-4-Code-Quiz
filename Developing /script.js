@@ -105,3 +105,17 @@ restart_quiz.onclick = ()=>{
     clearInterval(timerInterval); //clear counter
     next_btn.classList.remove("show"); //hide the next button
 }
+
+restart_quiz2.onclick = ()=>{
+    info_box.classList.add("activeInfo");
+    result_box.classList.remove("activeResult"); //hide result box
+    result_box2.classList.remove("activeResult");
+    highscore_box.classList.remove("activeResult");
+    timeValue = 60; 
+    que_count = 0;
+    que_numb = 1;
+    userScore = 0;
+    widthValue = 0;
+    clearInterval(timerInterval); //clear counter
+    next_btn.classList.remove("show"); //hide the next button
+}
