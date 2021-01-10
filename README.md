@@ -1,6 +1,4 @@
 # Homework-4-Code-Quiz
-
-# Homework-3-PasswordGenerator
 # Introduction
 The point of this homework is create a quiz on Javascript with the use of Jquery and multiple functions, as well as loops, arrays and objects. Accessing all of this information and bringing it together with CSS, so that it looks like the example given in the demo. 
 
