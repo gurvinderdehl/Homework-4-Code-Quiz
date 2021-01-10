@@ -10,3 +10,14 @@ let questions = [
       "Brendan Eich",
       "Harry Maguire"
     ]
+},
+{
+numb: 3,
+question: "Which is not a primitive data type in JavaScript?",
+answer: "character",
+options: [
+  "boolean",
+  "character",
+  "string",
+  "number",
+]
