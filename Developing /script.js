@@ -21,3 +21,27 @@ options: [
   "string",
   "number",
 ]
+},
+{
+numb: 4,
+question: "Which event fires whenever a control loses focus?",
+answer: "onblur",
+options: [
+  "onclick",
+  "onmove",
+  "onblur",
+  "onchange",
+]
+},
+{
+numb: 5,
+question: "String concatenation...?",
+answer: "Is the combination of two or more text Strings",
+options: [
+  "is the splitting of a String into two or more Strings",
+  "Is a complex String",
+  "Is the combination of two or more text Strings",
+  "Is an elemental String"
+]
+},
+];
