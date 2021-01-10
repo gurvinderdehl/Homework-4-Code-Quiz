@@ -71,3 +71,42 @@ body{
     font-weight: 600;
     color: purple;
 }
+
+.info_box .info-list{
+    padding: 15px 30px;
+}
+
+.info_box .info-list .info{
+    margin: 5px 0;
+    font-size: 17px;
+    color: purple;
+}
+
+.info_box .info-list .info span{
+    font-weight: 600;
+    color: purple;
+}
+.info_box .buttons{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 30px;
+    border-top: 1px solid white;
+    color: purple;
+}
+
+.info_box .buttons button{
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid purple;
+    transition: all 0.3s ease;
+    color: purple;
+    background-color: white;
+}
