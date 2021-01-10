@@ -63,3 +63,8 @@ var secondsLeft = 0;
 var timerInterval = "";
 var highscoresList = [];
 var newHS = 0;
+
+// if startQuiz button clicked
+start_btn.onclick = ()=>{
+    info_box.classList.add("activeInfo"); //show info box
+}
