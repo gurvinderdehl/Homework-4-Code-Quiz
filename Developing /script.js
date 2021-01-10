@@ -79,3 +79,14 @@ continue_btn.onclick = ()=>{
     startTimerLine(0); //calling startTimerLine function
 }
 
+let timeValue =  60;
+let que_count = 0;
+let que_numb = 1;
+let userScore = 0;
+let counter;
+let counterLine;
+let widthValue = 0;
+
+const restart_quiz = result_box2.querySelector(".buttons .restart");
+const restart_quiz2 = highscore_box.querySelector(".buttons .restart");
+const quit_quiz = result_box.querySelector(".buttons .quit");
