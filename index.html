@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Link for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <!-- Start Quiz button -->
+    <div class="start_btn"><button>Start Quiz</button></div>
+
+    <!-- Information Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Quiz Time!</span></div>
+        <div class="info-list">
+            <div class="info">Test your coding knowledge with this quiz! You've got 30 seconds to answer 5 questions. If you answer wrong, you lose 5 seconds. Ready? Click the button below to get started.</div>
+        </div>
+        <div class="buttons">
+            <button class="vHS">View Highscores</button>
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Quiz Time!</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">60</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box rb1">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+       </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+    <!-- Results box 2 -->
+    <div class="result_box rb2">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+       </div>
+       <div class="highscore_submit">Enter your initials: <input id="formInput"></input>
+        <div id="msg"></div>
+       </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="submit">Submit</button>
+        </div>
+    </div>
+
+    <div class="result_box highscore_box">
+        <div class="complete_text">Highscores</div>
+        <div>
+            <ul class="hscores">
+
+            </ul>
+        </div>       
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+        </div>
+    </div>
+    <!-- I've attached the link to my JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+</html>
