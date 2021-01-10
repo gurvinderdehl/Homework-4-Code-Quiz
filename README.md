@@ -8,5 +8,7 @@ I picked up many things along the way when trying to complete this task, trying 
 I would like to go over everything we have done in class so far and really come to grips with what was used and when carrying out this task, to really digest everything. Especially the use of the DOM and JQuery, as mentioned above, because it is still very new to me. I hope you like my quiz. 
 
 ###### Screenshots & Link to site
-![Screenshot #1](/Assets/Screenshot.png)
+![Screenshot #1](/Assets/Screenshot1.png)
+![Screenshot #1](/Assets/Screenshot2.png)
+![Screenshot #1](/Assets/Screenshot3.png)
 https://gurvinderdehl.github.io/Homework-4-Code-Quiz/
